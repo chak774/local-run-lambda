@@ -1,0 +1,16 @@
+{
+  "name": "local-run-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "node ./debug/index.js"
+  },
+  "author": "Chester Chak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "aws-sdk": "^2.386.0"
+  }
+}
